@@ -1010,6 +1010,13 @@ main {
 
 .btn:active{transform:translateY(1px)}
 
+.btn-primary_top{
+  background:var(--accent);color:white;min-width:120px;border:1px solid rgba(255,255,255,0.06);
+  /* background-color: hsl(45, 54%, 58%); */
+  color: #0b0b0c;
+  background-image: linear-gradient(90deg,hsl(45, 54%, 58%) 0%, hsl(45, 54%, 58%) 100%);
+}
+
 .btn-primary{
   background:var(--accent);color:white;min-width:120px;border:1px solid rgba(255,255,255,0.06);
   /* background-color: hsl(45, 54%, 58%); */
